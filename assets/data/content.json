@@ -1,0 +1,944 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "title": "Përshëndetje",
+      "english": "Greetings",
+      "subtitle": "Say hello like a local",
+      "icon": "waving_hand"
+    },
+    {
+      "id": "courtesy",
+      "title": "Mirësjellje",
+      "english": "Essentials",
+      "subtitle": "Please, thanks & sorry",
+      "icon": "volunteer_activism"
+    },
+    {
+      "id": "food",
+      "title": "Ushqimi",
+      "english": "Food & drink",
+      "subtitle": "A taste of Albania",
+      "icon": "restaurant"
+    },
+    {
+      "id": "directions",
+      "title": "Drejtimet",
+      "english": "Directions",
+      "subtitle": "Find your own way",
+      "icon": "explore"
+    },
+    {
+      "id": "transport",
+      "title": "Transporti",
+      "english": "Transport",
+      "subtitle": "On the move",
+      "icon": "directions_bus"
+    },
+    {
+      "id": "shopping",
+      "title": "Blerjet",
+      "english": "Shopping",
+      "subtitle": "Markets & little treasures",
+      "icon": "shopping_bag"
+    },
+    {
+      "id": "stay",
+      "title": "Akomodimi",
+      "english": "Accommodation",
+      "subtitle": "Feel at home, anywhere",
+      "icon": "hotel"
+    },
+    {
+      "id": "help",
+      "title": "Ndihma",
+      "english": "Help & health",
+      "subtitle": "The words that matter",
+      "icon": "health_and_safety"
+    },
+    {
+      "id": "conversation",
+      "title": "Biseda",
+      "english": "Conversation",
+      "subtitle": "Make a new connection",
+      "icon": "forum"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "greetings_01",
+      "category": "greetings",
+      "albanian": "Përshëndetje!",
+      "english": "Hello!",
+      "pronunciation": "puhr-shuhn-DEH-tyeh"
+    },
+    {
+      "id": "greetings_02",
+      "category": "greetings",
+      "albanian": "Mirëmëngjes!",
+      "english": "Good morning!",
+      "pronunciation": "meer-muhn-JES"
+    },
+    {
+      "id": "greetings_03",
+      "category": "greetings",
+      "albanian": "Mirëdita!",
+      "english": "Good afternoon!",
+      "pronunciation": "meer-DEE-tah"
+    },
+    {
+      "id": "greetings_04",
+      "category": "greetings",
+      "albanian": "Mirëmbrëma!",
+      "english": "Good evening!",
+      "pronunciation": "meer-MBRUH-mah"
+    },
+    {
+      "id": "greetings_05",
+      "category": "greetings",
+      "albanian": "Natën e mirë!",
+      "english": "Good night!",
+      "pronunciation": "NAH-tuhn eh MEE-ruh"
+    },
+    {
+      "id": "greetings_06",
+      "category": "greetings",
+      "albanian": "Si je?",
+      "english": "How are you?",
+      "pronunciation": "see yeh"
+    },
+    {
+      "id": "greetings_07",
+      "category": "greetings",
+      "albanian": "Jam mirë, faleminderit.",
+      "english": "I am well, thank you.",
+      "pronunciation": "yahm MEE-ruh, fah-leh-meen-DEH-reet"
+    },
+    {
+      "id": "greetings_08",
+      "category": "greetings",
+      "albanian": "Si quhesh?",
+      "english": "What is your name?",
+      "pronunciation": "see KOO-hesh"
+    },
+    {
+      "id": "greetings_09",
+      "category": "greetings",
+      "albanian": "Unë quhem Anna.",
+      "english": "My name is Anna.",
+      "pronunciation": "OO-nuh KOO-hem AH-nah"
+    },
+    {
+      "id": "greetings_10",
+      "category": "greetings",
+      "albanian": "Gëzohem që të njoh.",
+      "english": "Nice to meet you.",
+      "pronunciation": "guh-ZOH-hem chuh tuh nyoh"
+    },
+    {
+      "id": "greetings_11",
+      "category": "greetings",
+      "albanian": "Mirupafshim!",
+      "english": "Goodbye!",
+      "pronunciation": "meer-oo-PAHF-sheem"
+    },
+    {
+      "id": "courtesy_01",
+      "category": "courtesy",
+      "albanian": "Ju lutem.",
+      "english": "Please.",
+      "pronunciation": "yoo LOO-tem"
+    },
+    {
+      "id": "courtesy_02",
+      "category": "courtesy",
+      "albanian": "Faleminderit!",
+      "english": "Thank you!",
+      "pronunciation": "fah-leh-meen-DEH-reet"
+    },
+    {
+      "id": "courtesy_03",
+      "category": "courtesy",
+      "albanian": "Shumë faleminderit!",
+      "english": "Thank you very much!",
+      "pronunciation": "SHOO-muh fah-leh-meen-DEH-reet"
+    },
+    {
+      "id": "courtesy_04",
+      "category": "courtesy",
+      "albanian": "S’ka përse.",
+      "english": "You are welcome.",
+      "pronunciation": "skah PUHR-seh"
+    },
+    {
+      "id": "courtesy_05",
+      "category": "courtesy",
+      "albanian": "Më falni.",
+      "english": "Excuse me.",
+      "pronunciation": "muh FAHL-nee"
+    },
+    {
+      "id": "courtesy_06",
+      "category": "courtesy",
+      "albanian": "Më vjen keq.",
+      "english": "I am sorry.",
+      "pronunciation": "muh vyen kech"
+    },
+    {
+      "id": "courtesy_07",
+      "category": "courtesy",
+      "albanian": "Po.",
+      "english": "Yes.",
+      "pronunciation": "poh"
+    },
+    {
+      "id": "courtesy_08",
+      "category": "courtesy",
+      "albanian": "Jo.",
+      "english": "No.",
+      "pronunciation": "yoh"
+    },
+    {
+      "id": "courtesy_09",
+      "category": "courtesy",
+      "albanian": "Nuk kuptoj.",
+      "english": "I do not understand.",
+      "pronunciation": "nook koop-TOY"
+    },
+    {
+      "id": "courtesy_10",
+      "category": "courtesy",
+      "albanian": "A flisni anglisht?",
+      "english": "Do you speak English?",
+      "pronunciation": "ah FLEES-nee ahn-GLEESHT"
+    },
+    {
+      "id": "courtesy_11",
+      "category": "courtesy",
+      "albanian": "Mund ta përsërisni?",
+      "english": "Can you repeat that?",
+      "pronunciation": "moond tah puhr-suh-REES-nee"
+    },
+    {
+      "id": "food_01",
+      "category": "food",
+      "albanian": "Menunë, ju lutem.",
+      "english": "The menu, please.",
+      "pronunciation": "meh-NOO-nuh, yoo LOO-tem"
+    },
+    {
+      "id": "food_02",
+      "category": "food",
+      "albanian": "Dua një kafe.",
+      "english": "I would like a coffee.",
+      "pronunciation": "DOO-ah nyuh kah-FEH"
+    },
+    {
+      "id": "food_03",
+      "category": "food",
+      "albanian": "Një ujë, ju lutem.",
+      "english": "One water, please.",
+      "pronunciation": "nyuh OO-yuh, yoo LOO-tem"
+    },
+    {
+      "id": "food_04",
+      "category": "food",
+      "albanian": "Çfarë rekomandoni?",
+      "english": "What do you recommend?",
+      "pronunciation": "CHFAH-ruh reh-koh-mahn-DOH-nee"
+    },
+    {
+      "id": "food_05",
+      "category": "food",
+      "albanian": "Jam vegjetarian.",
+      "english": "I am vegetarian.",
+      "pronunciation": "yahm veh-jeh-tah-ree-AHN"
+    },
+    {
+      "id": "food_06",
+      "category": "food",
+      "albanian": "Pa mish, ju lutem.",
+      "english": "Without meat, please.",
+      "pronunciation": "pah meesh, yoo LOO-tem"
+    },
+    {
+      "id": "food_07",
+      "category": "food",
+      "albanian": "Kam alergji ndaj arrave.",
+      "english": "I am allergic to nuts.",
+      "pronunciation": "kahm ah-lehr-JEE ndai AH-rah-veh"
+    },
+    {
+      "id": "food_08",
+      "category": "food",
+      "albanian": "Është shumë e shijshme.",
+      "english": "It is very delicious.",
+      "pronunciation": "uhsht SHOO-muh eh SHEESH-meh"
+    },
+    {
+      "id": "food_09",
+      "category": "food",
+      "albanian": "Edhe një, ju lutem.",
+      "english": "One more, please.",
+      "pronunciation": "EH-dheh nyuh, yoo LOO-tem"
+    },
+    {
+      "id": "food_10",
+      "category": "food",
+      "albanian": "Faturën, ju lutem.",
+      "english": "The bill, please.",
+      "pronunciation": "fah-TOO-ruhn, yoo LOO-tem"
+    },
+    {
+      "id": "food_11",
+      "category": "food",
+      "albanian": "Gëzuar!",
+      "english": "Cheers!",
+      "pronunciation": "guh-ZOO-ahr"
+    },
+    {
+      "id": "directions_01",
+      "category": "directions",
+      "albanian": "Ku është tualeti?",
+      "english": "Where is the bathroom?",
+      "pronunciation": "koo uhsht too-ah-LEH-tee"
+    },
+    {
+      "id": "directions_02",
+      "category": "directions",
+      "albanian": "Ku është qendra?",
+      "english": "Where is the centre?",
+      "pronunciation": "koo uhsht CHEN-drah"
+    },
+    {
+      "id": "directions_03",
+      "category": "directions",
+      "albanian": "Si shkoj atje?",
+      "english": "How do I get there?",
+      "pronunciation": "see shkoy AHT-yeh"
+    },
+    {
+      "id": "directions_04",
+      "category": "directions",
+      "albanian": "Majtas.",
+      "english": "To the left.",
+      "pronunciation": "MAI-tahs"
+    },
+    {
+      "id": "directions_05",
+      "category": "directions",
+      "albanian": "Djathtas.",
+      "english": "To the right.",
+      "pronunciation": "DYAHTH-tahs"
+    },
+    {
+      "id": "directions_06",
+      "category": "directions",
+      "albanian": "Drejt përpara.",
+      "english": "Straight ahead.",
+      "pronunciation": "dreyt puhr-PAH-rah"
+    },
+    {
+      "id": "directions_07",
+      "category": "directions",
+      "albanian": "A është larg?",
+      "english": "Is it far?",
+      "pronunciation": "ah uhsht lahrg"
+    },
+    {
+      "id": "directions_08",
+      "category": "directions",
+      "albanian": "Është afër.",
+      "english": "It is nearby.",
+      "pronunciation": "uhsht AH-fuhr"
+    },
+    {
+      "id": "directions_09",
+      "category": "directions",
+      "albanian": "Jam i humbur.",
+      "english": "I am lost.",
+      "pronunciation": "yahm ee HOOM-boor"
+    },
+    {
+      "id": "directions_10",
+      "category": "directions",
+      "albanian": "Mund të më ndihmoni?",
+      "english": "Can you help me?",
+      "pronunciation": "moond tuh muh ndeeh-MOH-nee"
+    },
+    {
+      "id": "directions_11",
+      "category": "directions",
+      "albanian": "Ma tregoni në hartë.",
+      "english": "Show me on the map.",
+      "pronunciation": "mah treh-GOH-nee nuh HAHR-tuh"
+    },
+    {
+      "id": "transport_01",
+      "category": "transport",
+      "albanian": "Ku është stacioni i autobusit?",
+      "english": "Where is the bus station?",
+      "pronunciation": "koo uhsht stah-tsee-OH-nee ee ow-toh-BOO-seet"
+    },
+    {
+      "id": "transport_02",
+      "category": "transport",
+      "albanian": "Një biletë për Tiranë, ju lutem.",
+      "english": "One ticket to Tirana, please.",
+      "pronunciation": "nyuh bee-LEH-tuh puhr tee-RAH-nuh, yoo LOO-tem"
+    },
+    {
+      "id": "transport_03",
+      "category": "transport",
+      "albanian": "Sa kushton bileta?",
+      "english": "How much is the ticket?",
+      "pronunciation": "sah koosht-ON bee-LEH-tah"
+    },
+    {
+      "id": "transport_04",
+      "category": "transport",
+      "albanian": "Kur niset autobusi?",
+      "english": "When does the bus leave?",
+      "pronunciation": "koor NEE-set ow-toh-BOO-see"
+    },
+    {
+      "id": "transport_05",
+      "category": "transport",
+      "albanian": "Dua një taksi.",
+      "english": "I need a taxi.",
+      "pronunciation": "DOO-ah nyuh TAHK-see"
+    },
+    {
+      "id": "transport_06",
+      "category": "transport",
+      "albanian": "Në aeroport, ju lutem.",
+      "english": "To the airport, please.",
+      "pronunciation": "nuh ah-eh-roh-PORT, yoo LOO-tem"
+    },
+    {
+      "id": "transport_07",
+      "category": "transport",
+      "albanian": "Ndaloni këtu, ju lutem.",
+      "english": "Stop here, please.",
+      "pronunciation": "ndah-LOH-nee kuh-TOO, yoo LOO-tem"
+    },
+    {
+      "id": "transport_08",
+      "category": "transport",
+      "albanian": "A është i lirë ky vend?",
+      "english": "Is this seat free?",
+      "pronunciation": "ah uhsht ee LEE-ruh koo vend"
+    },
+    {
+      "id": "transport_09",
+      "category": "transport",
+      "albanian": "Sa zgjat udhëtimi?",
+      "english": "How long is the journey?",
+      "pronunciation": "sah zjyat oo-dhuh-TEE-mee"
+    },
+    {
+      "id": "transport_10",
+      "category": "transport",
+      "albanian": "Dua të marr një makinë me qira.",
+      "english": "I want to rent a car.",
+      "pronunciation": "DOO-ah tuh mahr nyuh mah-KEE-nuh meh chee-RAH"
+    },
+    {
+      "id": "transport_11",
+      "category": "transport",
+      "albanian": "Këtu është mirë.",
+      "english": "Here is fine.",
+      "pronunciation": "kuh-TOO uhsht MEE-ruh"
+    },
+    {
+      "id": "shopping_01",
+      "category": "shopping",
+      "albanian": "Dua ta blej këtë.",
+      "english": "I want to buy this.",
+      "pronunciation": "DOO-ah tah bley kuh-TUH"
+    },
+    {
+      "id": "shopping_02",
+      "category": "shopping",
+      "albanian": "Sa kushton?",
+      "english": "How much does it cost?",
+      "pronunciation": "sah koosht-ON"
+    },
+    {
+      "id": "shopping_03",
+      "category": "shopping",
+      "albanian": "Është shumë shtrenjtë.",
+      "english": "It is very expensive.",
+      "pronunciation": "uhsht SHOO-muh SHTREYNT"
+    },
+    {
+      "id": "shopping_04",
+      "category": "shopping",
+      "albanian": "A keni diçka më të lirë?",
+      "english": "Do you have something cheaper?",
+      "pronunciation": "ah KEH-nee DEECH-kah muh tuh LEE-ruh"
+    },
+    {
+      "id": "shopping_05",
+      "category": "shopping",
+      "albanian": "A mund të paguaj me kartë?",
+      "english": "Can I pay by card?",
+      "pronunciation": "ah moond tuh pah-GOO-ai meh KAHR-tuh"
+    },
+    {
+      "id": "shopping_06",
+      "category": "shopping",
+      "albanian": "Do të paguaj me para në dorë.",
+      "english": "I will pay in cash.",
+      "pronunciation": "doh tuh pah-GOO-ai meh PAH-rah nuh DOH-ruh"
+    },
+    {
+      "id": "shopping_07",
+      "category": "shopping",
+      "albanian": "Vetëm po shikoj.",
+      "english": "I am just looking.",
+      "pronunciation": "VEH-tuhm poh shee-KOY"
+    },
+    {
+      "id": "shopping_08",
+      "category": "shopping",
+      "albanian": "A mund ta provoj?",
+      "english": "Can I try it on?",
+      "pronunciation": "ah moond tah proh-VOY"
+    },
+    {
+      "id": "shopping_09",
+      "category": "shopping",
+      "albanian": "Keni një masë më të madhe?",
+      "english": "Do you have a larger size?",
+      "pronunciation": "KEH-nee nyuh MAH-suh muh tuh MAH-dheh"
+    },
+    {
+      "id": "shopping_10",
+      "category": "shopping",
+      "albanian": "Keni një qese?",
+      "english": "Do you have a bag?",
+      "pronunciation": "KEH-nee nyuh CHEH-seh"
+    },
+    {
+      "id": "shopping_11",
+      "category": "shopping",
+      "albanian": "Ku është tregu?",
+      "english": "Where is the market?",
+      "pronunciation": "koo uhsht TREH-goo"
+    },
+    {
+      "id": "stay_01",
+      "category": "stay",
+      "albanian": "Kam një rezervim.",
+      "english": "I have a reservation.",
+      "pronunciation": "kahm nyuh reh-zehr-VEEM"
+    },
+    {
+      "id": "stay_02",
+      "category": "stay",
+      "albanian": "Keni dhoma të lira?",
+      "english": "Do you have rooms available?",
+      "pronunciation": "KEH-nee DHOH-mah tuh LEE-rah"
+    },
+    {
+      "id": "stay_03",
+      "category": "stay",
+      "albanian": "Një dhomë për dy persona.",
+      "english": "A room for two people.",
+      "pronunciation": "nyuh dhohm puhr doo pehr-SOH-nah"
+    },
+    {
+      "id": "stay_04",
+      "category": "stay",
+      "albanian": "Për një natë.",
+      "english": "For one night.",
+      "pronunciation": "puhr nyuh NAH-tuh"
+    },
+    {
+      "id": "stay_05",
+      "category": "stay",
+      "albanian": "Sa kushton nata?",
+      "english": "How much is it per night?",
+      "pronunciation": "sah koosht-ON NAH-tah"
+    },
+    {
+      "id": "stay_06",
+      "category": "stay",
+      "albanian": "A përfshihet mëngjesi?",
+      "english": "Is breakfast included?",
+      "pronunciation": "ah puhrf-SHEE-het muhn-JEH-see"
+    },
+    {
+      "id": "stay_07",
+      "category": "stay",
+      "albanian": "Cili është fjalëkalimi i Wi-Fi?",
+      "english": "What is the Wi-Fi password?",
+      "pronunciation": "TSEE-lee uhsht fyah-luh-kah-LEE-mee ee WAI-fai"
+    },
+    {
+      "id": "stay_08",
+      "category": "stay",
+      "albanian": "Ku është dhoma ime?",
+      "english": "Where is my room?",
+      "pronunciation": "koo uhsht DHOH-mah EE-meh"
+    },
+    {
+      "id": "stay_09",
+      "category": "stay",
+      "albanian": "Nuk ka ujë të ngrohtë.",
+      "english": "There is no hot water.",
+      "pronunciation": "nook kah OO-yuh tuh NGROH-tuh"
+    },
+    {
+      "id": "stay_10",
+      "category": "stay",
+      "albanian": "Mund të kem një peshqir?",
+      "english": "May I have a towel?",
+      "pronunciation": "moond tuh kem nyuh pesh-CHEER"
+    },
+    {
+      "id": "stay_11",
+      "category": "stay",
+      "albanian": "Në ç’orë duhet të largohem?",
+      "english": "What time is check-out?",
+      "pronunciation": "nuh CHOH-ruh DOO-het tuh lahr-GOH-hem"
+    },
+    {
+      "id": "help_01",
+      "category": "help",
+      "albanian": "Ndihmë!",
+      "english": "Help!",
+      "pronunciation": "NDEEHM"
+    },
+    {
+      "id": "help_02",
+      "category": "help",
+      "albanian": "Telefononi një ambulancë!",
+      "english": "Call an ambulance!",
+      "pronunciation": "teh-leh-foh-NOH-nee nyuh ahm-boo-LAHN-tsuh"
+    },
+    {
+      "id": "help_03",
+      "category": "help",
+      "albanian": "Kam nevojë për një mjek.",
+      "english": "I need a doctor.",
+      "pronunciation": "kahm neh-VOY puhr nyuh myek"
+    },
+    {
+      "id": "help_04",
+      "category": "help",
+      "albanian": "Ku është spitali?",
+      "english": "Where is the hospital?",
+      "pronunciation": "koo uhsht spee-TAH-lee"
+    },
+    {
+      "id": "help_05",
+      "category": "help",
+      "albanian": "Ku është farmacia?",
+      "english": "Where is the pharmacy?",
+      "pronunciation": "koo uhsht fahr-mah-TSEE-ah"
+    },
+    {
+      "id": "help_06",
+      "category": "help",
+      "albanian": "Nuk ndihem mirë.",
+      "english": "I do not feel well.",
+      "pronunciation": "nook NDEE-hem MEE-ruh"
+    },
+    {
+      "id": "help_07",
+      "category": "help",
+      "albanian": "Më dhemb këtu.",
+      "english": "It hurts here.",
+      "pronunciation": "muh dhemb kuh-TOO"
+    },
+    {
+      "id": "help_08",
+      "category": "help",
+      "albanian": "Kam humbur pasaportën.",
+      "english": "I have lost my passport.",
+      "pronunciation": "kahm HOOM-boor pah-sah-POR-tuhn"
+    },
+    {
+      "id": "help_09",
+      "category": "help",
+      "albanian": "Telefononi policinë!",
+      "english": "Call the police!",
+      "pronunciation": "teh-leh-foh-NOH-nee poh-lee-TSEE-nuh"
+    },
+    {
+      "id": "help_10",
+      "category": "help",
+      "albanian": "Jam alergjik ndaj penicilinës.",
+      "english": "I am allergic to penicillin.",
+      "pronunciation": "yahm ah-lehr-JEEK ndai peh-nee-tsee-LEE-nuhs"
+    },
+    {
+      "id": "help_11",
+      "category": "help",
+      "albanian": "Më duhet ndihmë.",
+      "english": "I need help.",
+      "pronunciation": "muh DOO-het NDEEHM"
+    },
+    {
+      "id": "conversation_01",
+      "category": "conversation",
+      "albanian": "Nga jeni?",
+      "english": "Where are you from?",
+      "pronunciation": "ngah YEH-nee"
+    },
+    {
+      "id": "conversation_02",
+      "category": "conversation",
+      "albanian": "Jam nga Anglia.",
+      "english": "I am from England.",
+      "pronunciation": "yahm ngah ahn-GLEE-ah"
+    },
+    {
+      "id": "conversation_03",
+      "category": "conversation",
+      "albanian": "Po mësoj shqip.",
+      "english": "I am learning Albanian.",
+      "pronunciation": "poh muh-SOY shcheep"
+    },
+    {
+      "id": "conversation_04",
+      "category": "conversation",
+      "albanian": "Flas pak shqip.",
+      "english": "I speak a little Albanian.",
+      "pronunciation": "flahs pahk shcheep"
+    },
+    {
+      "id": "conversation_05",
+      "category": "conversation",
+      "albanian": "Flisni më ngadalë, ju lutem.",
+      "english": "Speak more slowly, please.",
+      "pronunciation": "FLEES-nee muh ngah-DAH-luh, yoo LOO-tem"
+    },
+    {
+      "id": "conversation_06",
+      "category": "conversation",
+      "albanian": "Si është moti?",
+      "english": "How is the weather?",
+      "pronunciation": "see uhsht MOH-tee"
+    },
+    {
+      "id": "conversation_07",
+      "category": "conversation",
+      "albanian": "Është një ditë e bukur.",
+      "english": "It is a beautiful day.",
+      "pronunciation": "uhsht nyuh DEE-tuh eh BOO-koor"
+    },
+    {
+      "id": "conversation_08",
+      "category": "conversation",
+      "albanian": "Më pëlqen Shqipëria.",
+      "english": "I like Albania.",
+      "pronunciation": "muh puhl-CHEN shchee-puh-REE-ah"
+    },
+    {
+      "id": "conversation_09",
+      "category": "conversation",
+      "albanian": "Çfarë bëni?",
+      "english": "What do you do?",
+      "pronunciation": "CHFAH-ruh BUH-nee"
+    },
+    {
+      "id": "conversation_10",
+      "category": "conversation",
+      "albanian": "Shihemi nesër!",
+      "english": "See you tomorrow!",
+      "pronunciation": "shee-HEH-mee NEH-suhr"
+    },
+    {
+      "id": "conversation_11",
+      "category": "conversation",
+      "albanian": "Mirë se erdhe!",
+      "english": "Welcome!",
+      "pronunciation": "MEE-ruh seh EHR-dheh"
+    }
+  ],
+  "words": [
+    {
+      "id": "word_01",
+      "albanian": "përshëndetje",
+      "english": "hello",
+      "pronunciation": "puhr-shuhn-DEH-tyeh"
+    },
+    {
+      "id": "word_02",
+      "albanian": "faleminderit",
+      "english": "thank you",
+      "pronunciation": "fah-leh-meen-DEH-reet"
+    },
+    {
+      "id": "word_03",
+      "albanian": "po",
+      "english": "yes",
+      "pronunciation": "poh"
+    },
+    {
+      "id": "word_04",
+      "albanian": "jo",
+      "english": "no",
+      "pronunciation": "yoh"
+    },
+    {
+      "id": "word_05",
+      "albanian": "ujë",
+      "english": "water",
+      "pronunciation": "OO-yuh"
+    },
+    {
+      "id": "word_06",
+      "albanian": "kafe",
+      "english": "coffee",
+      "pronunciation": "kah-FEH"
+    },
+    {
+      "id": "word_07",
+      "albanian": "bukë",
+      "english": "bread",
+      "pronunciation": "BOO-kuh"
+    },
+    {
+      "id": "word_08",
+      "albanian": "mish",
+      "english": "meat",
+      "pronunciation": "meesh"
+    },
+    {
+      "id": "word_09",
+      "albanian": "qumësht",
+      "english": "milk",
+      "pronunciation": "KOO-muhsht"
+    },
+    {
+      "id": "word_10",
+      "albanian": "ditë",
+      "english": "day",
+      "pronunciation": "DEE-tuh"
+    },
+    {
+      "id": "word_11",
+      "albanian": "natë",
+      "english": "night",
+      "pronunciation": "NAH-tuh"
+    },
+    {
+      "id": "word_12",
+      "albanian": "mirë",
+      "english": "good",
+      "pronunciation": "MEE-ruh"
+    },
+    {
+      "id": "word_13",
+      "albanian": "majtas",
+      "english": "left",
+      "pronunciation": "MAI-tahs"
+    },
+    {
+      "id": "word_14",
+      "albanian": "djathtas",
+      "english": "right",
+      "pronunciation": "DYAHTH-tahs"
+    },
+    {
+      "id": "word_15",
+      "albanian": "afër",
+      "english": "near",
+      "pronunciation": "AH-fuhr"
+    },
+    {
+      "id": "word_16",
+      "albanian": "larg",
+      "english": "far",
+      "pronunciation": "lahrg"
+    },
+    {
+      "id": "word_17",
+      "albanian": "biletë",
+      "english": "ticket",
+      "pronunciation": "bee-LEH-tuh"
+    },
+    {
+      "id": "word_18",
+      "albanian": "aeroport",
+      "english": "airport",
+      "pronunciation": "ah-eh-roh-PORT"
+    },
+    {
+      "id": "word_19",
+      "albanian": "taksi",
+      "english": "taxi",
+      "pronunciation": "TAHK-see"
+    },
+    {
+      "id": "word_20",
+      "albanian": "dhomë",
+      "english": "room",
+      "pronunciation": "DHOH-muh"
+    },
+    {
+      "id": "word_21",
+      "albanian": "hotel",
+      "english": "hotel",
+      "pronunciation": "hoh-TEL"
+    },
+    {
+      "id": "word_22",
+      "albanian": "treg",
+      "english": "market",
+      "pronunciation": "treg"
+    },
+    {
+      "id": "word_23",
+      "albanian": "para",
+      "english": "money",
+      "pronunciation": "PAH-rah"
+    },
+    {
+      "id": "word_24",
+      "albanian": "kartë",
+      "english": "card",
+      "pronunciation": "KAHR-tuh"
+    },
+    {
+      "id": "word_25",
+      "albanian": "mjek",
+      "english": "doctor",
+      "pronunciation": "myek"
+    },
+    {
+      "id": "word_26",
+      "albanian": "farmaci",
+      "english": "pharmacy",
+      "pronunciation": "fahr-mah-TSEE"
+    },
+    {
+      "id": "word_27",
+      "albanian": "ndihmë",
+      "english": "help",
+      "pronunciation": "NDEEHM"
+    },
+    {
+      "id": "word_28",
+      "albanian": "sot",
+      "english": "today",
+      "pronunciation": "soht"
+    },
+    {
+      "id": "word_29",
+      "albanian": "nesër",
+      "english": "tomorrow",
+      "pronunciation": "NEH-suhr"
+    },
+    {
+      "id": "word_30",
+      "albanian": "shqip",
+      "english": "Albanian",
+      "pronunciation": "shcheep"
+    }
+  ]
+}
